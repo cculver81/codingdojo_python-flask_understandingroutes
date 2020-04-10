@@ -31,7 +31,7 @@ def repeat_expression(count, expression):
 
 @app.errorhandler(404)
 def error404(error):
-    return '<h1>Sorry! No response. Try again.</h1>', 404
+    return '<div style="background-color:c0c0c0;"><h3 style="text-align:center;color:blue;">Sorry! No response. Try again.</h3></div>', 404
 
 # Turn debug function on
 if __name__ == "__main__":
